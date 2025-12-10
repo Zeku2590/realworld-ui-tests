@@ -1,0 +1,13 @@
+domain: http://localhost:4200
+
+backendApi: http://localhost:8000/api
+
+users:
+  userA:
+    username: "userA_demo"
+    email: "userA_demo@test.com"
+    password: "Password123!"
+  userB:
+    username: "userB_demo"
+    email: "userB_demo@test.com"
+    password: "Password123!"
