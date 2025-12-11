@@ -5,7 +5,7 @@ import { loadConfig } from '../utils/configLoader';
 const cfg = loadConfig();
 
 test.describe('Auth flow', () => {
-  test.only('User can sign up and log in', async ({ page }) => {
+  test('User can sign up and log in', async ({ page }) => {
   const timestamp = Date.now();
   const username = `user${timestamp}`;
   const email = `user${timestamp}@test.com`;
